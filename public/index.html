@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DevsHunt | An online learning platform</title>
 
+    <!-- Favicon icon -->
+    <link rel="shortcut icon" href="./images/logo-mini.png" type="image/x-icon">
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="./css/font-awesome/css/all.min.css">
 
@@ -72,7 +75,8 @@
                             </a>
                         </li>
                         <li class="inline-block mx-6 relative group">
-                            <a href="#" class="text-xl text-gray-500 group-hover:opacity-75 rounded-full w-5 h-5 shadow py-1.5 px-3">
+                            <a href="#"
+                                class="text-xl text-gray-500 group-hover:opacity-75 rounded-full w-5 h-5 shadow py-1.5 px-3">
                                 <i class="fa-solid fa-user"></i>
                             </a>
                         </li>
@@ -84,7 +88,44 @@
     <!-- Start Navbar -->
 
     <!-- Start Hero Section -->
-    <header></header>
+    <header class="bg-[#DEF6FD] mt-t rounded-md">
+        <div class="container mx-auto bg-hero bg-contain bg-no-repeat py-40 bg-[right_0px_top_10px]">
+            <h2 class="text-4xl mb-1">Find a Perfect</h2>
+            <h2 class="text-4xl font-semibold">Online Course</h2>
+            <p class="text-gray-500 my-3 ">
+                Only those courses, what you need to learn Web Development
+            </p>
+            <form action="#" method="get" class="mt-4">
+                <div class="flex bg-white items-center p-4">
+                    <div class="basis-3/6 relative">
+                        <span class="absolute top-0.5 left-4">
+                            <i class="fa-solid fa-magnifying-glass text-slate-400"></i>
+                        </span>
+                        <input type="search" name="" id="" class="ml-16 outline-none focus:outline-none font-thin" placeholder="Search online courses">
+                    </div>
+                    <div class="basis-2/6 flex">
+                        <div>
+                            <i class="fa-solid fa-cube text-slate-400 mr-2"></i>
+                        </div>
+                        <div class="flex-1">
+                            <select name="category" id="category" class="bg-white text-slate-400 font-thin w-full">
+                                <option value="">Select Technology</option>
+                                <option value="Bootstrap">Bootstrap</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="basis-1/6">
+                        <button class="transition bg-red-500 text-white p-3 px-8 hover:opacity-75 rounded-full w-full ml-3">
+                            Search
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <p class="text-gray-500 mt-3 ">
+                <strong>Popular Search:</strong> Designer, Developer, PHP, HTML, CSS, Javascript
+            </p>
+        </div>
+    </header>
     <!-- End Hero Section -->
 
     <!-- Start Categories Section -->

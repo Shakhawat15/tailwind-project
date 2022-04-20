@@ -5,6 +5,9 @@ module.exports = {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
       },
+      backgroundImage: {
+        'hero': "url('./../images/banner.png')",
+      }
     },
   },
   plugins: [],
