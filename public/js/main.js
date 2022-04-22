@@ -1,5 +1,8 @@
 $(document).ready(function () {
-    $('#popular-courses').slick({
+    
+    // Popular Courses 
+    // New Courses
+    $('#popular-courses, #new-courses').slick({
         dots: false,
         loop: true,
         infinite: true,
