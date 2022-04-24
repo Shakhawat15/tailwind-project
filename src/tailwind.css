@@ -23,11 +23,11 @@
     }
 
     .slick-prev {
-        margin-left: 8px;
+        margin-left: 18px;
     }
 
     .slick-next {
-        margin-right: 8px;
+        margin-right: 18px;
     }
 
     .slick-prev::before,
@@ -44,4 +44,5 @@
     .slick-next::before {
         content: "\f054";
     }
+
 }
