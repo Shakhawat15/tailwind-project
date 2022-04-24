@@ -129,4 +129,17 @@ $(document).ready(function () {
     $('.mobile-navbar').on('click', function (event) {
         event.stopPropagation();
     });
+
+    /************************************* 
+     * Scroll To Top *
+     ************************************/
+    $(window).scroll(function () {
+        if ($(this).scrollTop() > 100) {
+            $('#scroll-top').addClass('fixed');
+            $('#scroll-top').removeClass('hidden');
+        } else {
+            $('#scroll-top').removeClass('fixed');
+            $('#scroll-top').addClass('hidden');
+        }
+    })
 });
