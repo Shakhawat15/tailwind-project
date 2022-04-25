@@ -44,5 +44,8 @@
     .slick-next::before {
         content: "\f054";
     }
+    .sidebar-section {
+        @apply mb-6
+    }
 
 }

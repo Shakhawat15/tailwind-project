@@ -141,5 +141,20 @@ $(document).ready(function () {
             $('#scroll-top').removeClass('fixed');
             $('#scroll-top').addClass('hidden');
         }
+    });
+
+    /************************************* 
+     * Collapse Button *
+     ************************************/
+    $('.collapse-btn').click(function (e) {
+        const parent = $(this).children(':nth-child(2)');
+        if (parent.children().hasClass('.fa-chevron-down')) {
+            parent.children().removeClass('.fa-chevron-down');
+            parent.children().addClass('fa-chevron-up');
+        } else {
+            parent.children().addClass('.fa-chevron-down');
+            parent.children().removeClass('fa-chevron-up');
+        }
+        $(this).next().slideToggle('slow');
     })
 });
